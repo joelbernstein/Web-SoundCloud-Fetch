@@ -13,6 +13,9 @@ requires       'MooseX::Types::JSON';
 requires 'HTML::TreeBuilder';
 requires 'HTML::TreeBuilder::XPath';
 requires 'WWW::Mechanize::TreeBuilder';
+requires 'JSON::XS';
+requires 'Moose::Autobox';
+requires 'MP3::Info';
 
 test_requires  'Test::Most'  => 0;
 
